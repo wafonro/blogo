@@ -73,6 +73,6 @@ func mainPageHandler(w http.ResponseWriter, r *http.Request) {
 func main() {
 	http.HandleFunc("/view/", blogPageHandler)
 	http.HandleFunc("/", mainPageHandler)
-	http.Handle("/css/", http.StripPrefix("/css/", http.FileServer(http.Dir("css"))))
+	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
