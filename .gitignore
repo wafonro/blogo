@@ -2,8 +2,11 @@
 !index.html
 *.md
 !README.md
+!view/sample.md
 *.css
-!css/index.css
+!static/css/index.css
+*.js
+!static/js/sample.js
 *.txt
 *.sh
 CompileDaemon
