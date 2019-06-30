@@ -1,0 +1,10 @@
+*.html
+!index.html
+*.md
+!readme.md
+*.css
+!css/index.css
+*.txt
+*.sh
+CompileDaemon
+blog
