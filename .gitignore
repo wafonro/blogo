@@ -1,7 +1,7 @@
 *.html
 !index.html
 *.md
-!readme.md
+!README.md
 *.css
 !css/index.css
 *.txt
